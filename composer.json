@@ -1,0 +1,21 @@
+{
+  "name": "my_plugin/event_manager_past_events",
+  "type": "elgg-plugin",
+  "description": "Adds a 'Past Events' tab to the Event Manager plugin, extending its functionality without modifying core files.",
+  "keywords": ["elgg", "plugin", "events", "past events"],
+  "license": "GPL-2.0",
+  "require": {
+    "elgg/elgg": "^5.0",
+    "coldtrick/event_manager": "^12.0"
+  },
+  "extra": {
+    "elgg-plugin": {
+      "id": "event_manager_past_events",
+      "version": "1.0.0",
+      "elgg_version": "^5.0",
+      "dependencies": {
+        "event_manager": ">=12.0"
+      }
+    }
+  }
+}
