@@ -19,7 +19,7 @@ Say you use the event_manager for a series of lessons and students need to be ab
 Composer (recommended):
 
 ```
-composer require <your-vendor>/event_manager_past_events
+composer require valmiki/event_manager_past_events
 ```
 
 …then enable **Event Manager Past Events** in the Elgg admin plugins screen
